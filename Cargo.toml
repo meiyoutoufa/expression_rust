@@ -1,0 +1,10 @@
+[package]
+name = "expression"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+
+[lib]
+crate-type = ["cdylib"]  # 生成 C 兼容的动态库
